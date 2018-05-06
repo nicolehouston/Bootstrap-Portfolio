@@ -1,0 +1,13 @@
+body {
+    background-image: url("circles-light.png");
+}
+
+#profile_pic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.about_me {
+}
