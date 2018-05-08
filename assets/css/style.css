@@ -89,9 +89,14 @@ a:hover {
     border-top: solid #4aaaa5 3px;
     }
 
-    @media screen and (max-width: 576px){
+    @media screen and (max-width: 640px){
         .container {
             width: 95%;
             margin: auto;
+        }
+
+        #profile_pic {
+            width: 100%;
+            height: auto;
         }
     }
