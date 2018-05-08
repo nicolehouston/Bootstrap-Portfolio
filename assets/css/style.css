@@ -1,5 +1,26 @@
 body {
-    background-image: url("circles-light.png");
+    background-image: url("../images/circles-light.png");
+}
+
+.header {
+    font-weight: bold;
+    background-color: #4aaaa5; 
+    padding: 10px 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px;
+}
+
+.container {
+    width: 960px;
+    background-color:#ffffff;
+}
+
+.content_header {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: bold; 
+    color:#4aaaa5;
+    font-size: 20px; 
+    padding: 10px 0px 0px 20px
 }
 
 #profile_pic {
@@ -66,4 +87,11 @@ a:hover {
     background-color: #666666;
     height: 40px;
     border-top: solid #4aaaa5 3px;
+    }
+
+    @media screen and (max-width: 576px){
+        .container {
+            width: 95%;
+            margin: auto;
+        }
     }
