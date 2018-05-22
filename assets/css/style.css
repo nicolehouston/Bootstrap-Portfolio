@@ -70,11 +70,12 @@ a {
 .project_pic {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .centered {
     font-family: 'Cabin Sketch', cursive;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
